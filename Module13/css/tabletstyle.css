@@ -1,0 +1,38 @@
+@media screen and (min-width: 641px){
+
+    nav ul li {
+        display: inline-block; /*This lists items horizontally*/
+        border-radius: 1em;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
+    nav ul li {
+        padding: 0.7em;
+        border-top: solid .2em rgb(194, 29, 57);
+        border-bottom: solid .2em rgb(194, 29, 57);
+        display: inline-block;
+        border-radius: 1em;
+        min-width: 10%;
+        box-shadow: 0.5em 0.5em 0.5em navy;
+    }
+
+    /*figure {
+        /*box-shadow: 0.5em 0.5em 0.5em black;  uzyc jakbym chcial podcien do obrazu, aczkolwiek w moim lepiej wyglada bez. 
+    }*/
+
+    main {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+
+    main div .center {
+        width: 60%;
+        border-right: 0.3em solid navy; 
+    }
+
+    footer {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+}
